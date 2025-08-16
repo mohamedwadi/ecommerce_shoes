@@ -14,7 +14,8 @@ class SignUpScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isdark = THelperFunctions.isDarkMode(context);
+    final isDark = THelperFunctions.isDarkMode(context);
+    /// hello word commit
     return Scaffold(
       appBar: AppBar(),
       body: SingleChildScrollView(
