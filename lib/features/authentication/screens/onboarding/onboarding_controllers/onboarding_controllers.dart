@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:project_ecommerce_shoes_flutter_2025/features/authentication/login/screens/login_screen.dart';
+
+import '../../login/screens/login_screen.dart';
 
 class OnBoardingControllers extends GetxController{
 

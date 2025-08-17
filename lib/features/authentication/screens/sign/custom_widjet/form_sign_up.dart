@@ -1,13 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:project_ecommerce_shoes_flutter_2025/features/authentication/sign/screens/verification_screen.dart';
 import 'package:project_ecommerce_shoes_flutter_2025/utils/constants/colors.dart';
 import 'package:project_ecommerce_shoes_flutter_2025/utils/helpers/helper_functions.dart';
 
-import '../../../../utils/constants/sizes.dart';
-import '../../../../utils/constants/text.dart';
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/constants/text.dart';
 import 'package:get/get.dart';
+
+import '../screens/verification_screen.dart';
 
 class FormSignUP extends StatelessWidget {
   const FormSignUP({super.key});

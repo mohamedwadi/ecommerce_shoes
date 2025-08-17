@@ -37,6 +37,9 @@ class TTexts {
   static const String resendEmail = "Resend Email";
   static const String registrationSuccessfulTitle = "your account successful created!";
   static const String  registrationSuccessfulSupTitle = "Thank you for signing up! To ensure seamless transactions and secure access, please verify your email address by clicking the button";
+  static const String  forgotPasswordSupTitle = "Don't worry, people forget sometimes. Enter your email address to reset your password";
+  static const String  resetPasswordTitle = "Password Reset Email Sent";
+  static const String  resetPasswordSupTitle = "Your account security is our priority. We’ve sent a secure link to to safely reset your password and keep your account protected.";
 
 
 

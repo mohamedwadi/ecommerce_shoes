@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../utils/constants/images.dart';
-import '../../../../utils/constants/sizes.dart';
-import '../../../../utils/constants/text.dart';
-import '../../../../utils/helpers/helper_functions.dart';
+import '../../../../../utils/constants/images.dart';
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/constants/text.dart';
+import '../../../../../utils/helpers/helper_functions.dart';
 
 class LoginHeader extends StatelessWidget {
   const LoginHeader({

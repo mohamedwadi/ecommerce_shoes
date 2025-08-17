@@ -5,8 +5,8 @@ import 'package:project_ecommerce_shoes_flutter_2025/utils/constants/sizes.dart'
 import 'package:project_ecommerce_shoes_flutter_2025/utils/constants/text.dart';
 import 'package:project_ecommerce_shoes_flutter_2025/utils/helpers/helper_functions.dart';
 
-import '../../../../common/widjet_app/login_sign_up_screen/divider_middle_text.dart';
-import '../../../../common/widjet_app/login_sign_up_screen//footer_social_media.dart';
+import '../../../../../common/widjet_app/login_sign_up_screen/divider_middle_text.dart';
+import '../../../../../common/widjet_app/login_sign_up_screen/footer_social_media.dart';
 import '../custom_widjet/form_sign_up.dart';
 
 class SignUpScreen extends StatelessWidget {

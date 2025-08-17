@@ -20,6 +20,7 @@ class TImages {
   static const String onBoardingImage3 = "assets/images/onBoarding3.svg";
   static const String verificationImage = "assets/images/verification.svg";
   static const String registrationSuccess = "assets/images/registration.svg";
+  static const String resetPassword = "assets/images/reset_password.svg";
 
 
 

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:project_ecommerce_shoes_flutter_2025/features/authentication/onboarding/custom_widjet/on_boarding_dot_navagition.dart';
-import 'package:project_ecommerce_shoes_flutter_2025/features/authentication/onboarding/onboarding_controllers/onboarding_controllers.dart';
 import 'package:project_ecommerce_shoes_flutter_2025/utils/constants/colors.dart';
 import 'package:project_ecommerce_shoes_flutter_2025/utils/constants/images.dart';
 import 'package:project_ecommerce_shoes_flutter_2025/utils/constants/sizes.dart';
@@ -11,10 +9,13 @@ import 'package:project_ecommerce_shoes_flutter_2025/utils/helpers/helper_functi
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:iconsax/iconsax.dart';
 
+import '../custom_widjet/on_boarding_dot_navagition.dart';
 import '../custom_widjet/onboarding_page.dart';
 import '../custom_widjet/onboarding_next_button.dart';
 import '../custom_widjet/skip_button_onboarding.dart';
 import 'package:get/get.dart';
+
+import '../onboarding_controllers/onboarding_controllers.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
