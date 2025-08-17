@@ -24,6 +24,7 @@ dependencies:
   http: ^1.5.0
   iconsax: ^0.0.8
   smooth_page_indicator: ^1.2.1
+  flutter_native_splash: ^2.3.1
 
 
 
@@ -58,3 +59,9 @@ flutter:
         - asset: assets/fonts/Poppins-Bold.ttf
           weight: 700
 
+#flutter_native_splash:
+#  color: "#ffffff"
+#  android: true
+#  ios: true
+#  android_12:
+#    color: "#ffffff"

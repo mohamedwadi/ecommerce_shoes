@@ -1,9 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:project_ecommerce_shoes_flutter_2025/features/authentication/sign/screens/sign_up_screen.dart';
 
 import '../../../../utils/constants/sizes.dart';
 import '../../../../utils/constants/text.dart';
+import 'package:get/get.dart';
 
 class FormLogin extends StatelessWidget {
   const FormLogin({
@@ -56,7 +58,9 @@ class FormLogin extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: OutlinedButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.to(SignUpScreen());
+              },
               child: Text(TTexts.createAccountButton),
             ),
           ),
