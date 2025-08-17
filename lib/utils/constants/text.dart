@@ -29,6 +29,17 @@ class TTexts {
   static const String and = "and ";
   static const String termsOfUse = "Terms of use";
 
+  ///-------
+  static const String verifyTitle = "Verify your email address!";
+  static const String verifySupTitle = "Thank you for signing up! To ensure seamless transactions and secure access, please verify your email address by clicking the button";
+  static const String continueS = "Continue";
+  static const String submit = "Submit";
+  static const String resendEmail = "Resend Email";
+  static const String registrationSuccessfulTitle = "your account successful created!";
+  static const String  registrationSuccessfulSupTitle = "Thank you for signing up! To ensure seamless transactions and secure access, please verify your email address by clicking the button";
+
+
+
 
   // ========== نصوص شاشات التعريف (OnBoarding) ==========
   static const String onBoardingTitle1 = "Choose your product";
