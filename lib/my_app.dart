@@ -6,6 +6,7 @@ import 'package:project_ecommerce_shoes_flutter_2025/features/authentication/scr
 import 'package:project_ecommerce_shoes_flutter_2025/features/authentication/screens/forget_password/reset_password.dart';
 import 'package:project_ecommerce_shoes_flutter_2025/features/authentication/screens/sign/screens/verification_screen.dart';
 import 'package:project_ecommerce_shoes_flutter_2025/features/splach/splach_screen.dart';
+import 'package:project_ecommerce_shoes_flutter_2025/navigation_menu.dart';
 import 'package:project_ecommerce_shoes_flutter_2025/utils/theme/app_theme.dart';
 
 class MyApp extends StatelessWidget {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      home: ResetPassword(),
+      home: NavigationMenu(),
     );
   }
 }

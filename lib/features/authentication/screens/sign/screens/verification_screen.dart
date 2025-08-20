@@ -7,8 +7,8 @@ import 'package:project_ecommerce_shoes_flutter_2025/utils/constants/sizes.dart'
 import 'package:project_ecommerce_shoes_flutter_2025/utils/constants/text.dart';
 import 'package:project_ecommerce_shoes_flutter_2025/utils/helpers/helper_functions.dart';
 import 'package:get/get.dart';
-
 import '../../login/screens/login_screen.dart';
+
 
 class VerificationScreen extends StatelessWidget {
   const VerificationScreen({super.key});
