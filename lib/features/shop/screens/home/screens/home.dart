@@ -28,7 +28,6 @@ class HomeScreen extends StatelessWidget {
                               topRight: Radius.circular(10)
                           )
                       ),
-
                     ),
                   ),
                   Positioned(
