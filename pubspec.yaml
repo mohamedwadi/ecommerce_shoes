@@ -25,8 +25,7 @@ dependencies:
   iconsax: ^0.0.8
   smooth_page_indicator: ^1.2.1
   flutter_native_splash: ^2.3.1
-
-
+  carousel_slider: ^5.1.1
 
 
 dev_dependencies:
